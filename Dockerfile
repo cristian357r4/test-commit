@@ -15,3 +15,4 @@ RUN apt-get install -y libxml2-dev libxslt-dev python-dev && \
 RUN pip install pandas lxml numpy matplotlib plotly
 
 ENTRYPOINT ["jupyter", "notebook", "--ip", "0.0.0.0", "--no-browser", "--allow-root"]
+# nuevo cambio
